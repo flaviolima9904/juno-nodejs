@@ -14,7 +14,7 @@ Dessa forma, fizemos o envio dos dados do cartão (requisição com SSL) para no
 
 Instale o pacote através do comando:
 
-`npm install juno-nodejs --save`
+`npm install @drewaker/juno-nodejs --save`
 
 ## Utilização
 
