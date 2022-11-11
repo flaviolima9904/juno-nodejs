@@ -1,5 +1,7 @@
 # JUNO Card Hash - NodeJS
 
+Bifurcação de juno-nodejs(https://github.com/murilo-campaner/juno-nodejs) devido à inatividade.
+
 Esse projeto destina-se a pessoas que estão realizando a integração com a API de pagamentos [JUNO](https://juno.com.br/) e estão encontrando problemas para realizar o hash do cartão de crédito no Frontend.
 
 No nosso caso, tinhamos problema para realizar a criptografia dos dados do cartão, pela necessidade de utilizar uma chave pública em um ambiente ReactNative (Utilizando Expo).

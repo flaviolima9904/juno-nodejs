@@ -62,7 +62,7 @@ class JunoCardHash {
     try {
       const { data } = await this.axios.post(ENDPOINT);
       return data.replace(/(\r\n|\n|\r)/gm, ""); // Remove line breaks
-    } catch (error) {
+    } catch (error: any) {
       throw new Error(
         error.response.message ||
           "Erro ao gerar a chave pública na API de pagamentos"
